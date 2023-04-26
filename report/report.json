@@ -1,0 +1,66 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "simple-test;simple-test",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Simple test",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 234351900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"https://am.iqos.com/am/home\"",
+            "match": {
+              "location": "features\\support\\steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12664225499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on element \"Buy Now\" on \"Home Page\" page",
+            "match": {
+              "location": "features\\support\\steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2663887600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45294999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "simple-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Simple test",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
