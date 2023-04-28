@@ -1,1 +1,6 @@
-# Test_Automation_Mentoring
+# Installation 
+
+```
+npm i
+npm test
+```

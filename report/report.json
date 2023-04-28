@@ -14,33 +14,43 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 234351900
+              "duration": 260404799
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I navigate to \"https://am.iqos.com/am/home\"",
+            "name": "I navigate to \"Login Page\"",
             "match": {
-              "location": "features\\support\\steps.js:4"
+              "location": "features\\support\\steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 12664225499
+              "duration": 6163338200
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I click on element \"Buy Now\" on \"Home Page\" page",
+            "name": "I click on element \"Login Button\" on \"Login Page\" page",
             "match": {
-              "location": "features\\support\\steps.js:8"
+              "location": "features\\support\\steps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 2663887600
+              "duration": 1406536100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I expect 2 elements \"Invalid Login\" on \"Login Page\" page to be displayed",
+            "result": {
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -48,7 +58,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 45294999
+              "duration": 27144900
             }
           }
         ],
@@ -61,6 +71,6 @@
     "keyword": "Feature",
     "name": "Simple test",
     "tags": [],
-    "uri": "features\\login.feature"
+    "uri": "features\\Login.feature"
   }
 ]
