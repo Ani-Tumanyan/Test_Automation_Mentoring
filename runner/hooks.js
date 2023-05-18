@@ -1,12 +1,16 @@
 const { Before, BeforeAll, AfterAll, After, setDefaultTimeout } = require("@cucumber/cucumber");
-const { webkit } = require("playwright");
+const { chromium } = require("playwright");
 
 setDefaultTimeout(50000)
 
 BeforeAll(async function () {
-    global.browser = await webkit.launch({
+    global.browser = await chromium.launch({
         headless: false,
         slowMo: 1000,
+        logger: {
+            isEnabled: (name, severity) => name === 'browser',
+            log: (name) => console.log(`${name}++++++++++++++`)
+        }
     });
 
 });

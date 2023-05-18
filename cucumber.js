@@ -1,8 +1,8 @@
 const common = `
   --require runner/hooks.js 
-  --require features/support/steps.js
+  --require src/features/support/*.js
   `;
 
 module.exports = {
-  default: `${common} --publish-quiet features/**/*.feature`,
+  default: `${common} --publish-quiet src/features/**/*.feature`,
 };

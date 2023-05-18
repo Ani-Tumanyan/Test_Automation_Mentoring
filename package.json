@@ -5,7 +5,7 @@
     "cucumber": "^7.0.0-rc.0",
     "cucumber-junit": "^1.7.1",
     "cucumberjs-junitxml": "^1.0.0",
-    "playwright": "^1.7.1"
+    "playwright": "^1.33.0"
   },
   "license": "",
   "name": "playwright-cucumberjs",
@@ -14,11 +14,20 @@
     "url": ""
   },
   "scripts": {
-    "test": "cucumber-js --parallel 1 -f json:report/report.json && node index.js"
+    "test:playwright": "cucumber-js --parallel 1 -f json:report/report.json && node runner/index.js runner=cucumber",
+    "test:wdio": "wdio run ./wdio.conf.js runner=wdio"
   },
   "version": "1.0.0",
   "dependencies": {
     "@cucumber/cucumber": "^9.1.0",
-    "cucumber-html-reporter": "^5.3.0"
+    "@wdio/cli": "^7.16.15",
+    "@wdio/cucumber-framework": "^7.16.14",
+    "@wdio/local-runner": "^7.16.15",
+    "@wdio/logger": "^8.6.6",
+    "@wdio/spec-reporter": "^7.16.14",
+    "chromedriver": "^113.0.0",
+    "cucumber-html-reporter": "^5.3.0",
+    "wdio-chromedriver-service": "^7.2.8",
+    "wdio-lambdatest-service": "^1.0.6"
   }
 }
