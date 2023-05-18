@@ -2,5 +2,6 @@
 
 ```
 npm i
-npm test
+npm run test:playwright   
+npm run test:wdio
 ```
