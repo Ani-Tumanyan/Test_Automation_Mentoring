@@ -1,0 +1,2 @@
+{"startDisplayTime":"5/19/2023, 8:15:56 AM","instanceID":"inst6afcc0837425f3103f9788b3d3fdc012"}
+{"name":"Navigation Session","brName":"chrome","id":"7c805c12855aff4bcd2326577d73b3f6","instanceId":"inst6afcc0837425f3103f9788b3d3fdc012","startTime":1684469756214,"endTime":1684469759654,"startDisplayTime":"5/19/2023, 8:15:56 AM","duration":3440,"isTestPassed":false}
