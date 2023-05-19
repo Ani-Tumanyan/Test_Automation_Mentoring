@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@playwright/test": "^1.32.3",
+    "@wdio/devtools-service": "^8.10.2",
     "chai": "^4.3.7",
     "cucumber": "^7.0.0-rc.0",
     "cucumber-junit": "^1.7.1",
@@ -28,6 +29,7 @@
     "chromedriver": "^113.0.0",
     "cucumber-html-reporter": "^5.3.0",
     "wdio-chromedriver-service": "^7.2.8",
-    "wdio-lambdatest-service": "^1.0.6"
+    "wdio-lambdatest-service": "^1.0.6",
+    "wdio-performancetotal-service": "^3.1.0"
   }
 }
